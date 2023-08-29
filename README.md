@@ -7,7 +7,14 @@ Hola! 🤓 somos un grupo ...
 # Problematica
 
 
+
+
+
+
 # Visión y Misión 
+
+
+
 
 
 
