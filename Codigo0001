@@ -1,0 +1,83 @@
+#include <WiFi.h>
+#include <Firebase_ESP_Client.h> //para conectar el ESP32 con Firebase
+#include "addons/TokenHelper.h" //para generación de tokens
+#include "addons/RTDBHelper.h"
+
+//definimos nuestras credenciales
+#define WIFI_SSID "UPCH_CENTRAL"
+#define WIFI_PASSWORD "CAYETANO2022"
+
+//definimos las credenciales de nuestro proyecto
+#define API_KEY "AIzaSyAk_QyhlVShjHKa74vjCv50XiBvl46Hb54"
+#define DATABASE_URL "https://pruebax3-6ad7e-default-rtdb.firebaseio.com/"
+
+//definimos nuestros sensores
+#define sensor_pH 35
+#define sensor_conductividad 34
+
+//creamos las 3 funciones que necesitamos de Firebase
+FirebaseData fbdo;
+FirebaseAuth auth;
+FirebaseConfig config;
+
+unsigned long sendDataPrevMillis=0;
+bool signupOK=false;
+float pHData=0;
+float conductividadData=0;
+
+float pHFinal=0;
+float conductividadFinal=0;
+
+void setup() {
+    Serial.begin(115200);
+    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+    Serial.print("Conectándose al Wifi");
+    while (WiFi.status() != WL_CONNECTED){
+      Serial.print(".");
+      delay(300);
+    }
+    
+    config.api_key= API_KEY;
+    config.database_url= DATABASE_URL;
+    if(Firebase.signUp(&config, &auth, "", "")){
+      Serial.println("signUp OK!");
+      signupOK=true;
+    }else{
+      Serial.printf("%s\n", config.signer.signupError.message.c_str());
+    }
+    
+    config.token_status_callback= tokenStatusCallback;
+    Firebase.begin(&config, &auth);
+    Firebase.reconnectWiFi(true);
+    
+    pinMode(sensor_pH,INPUT);
+    pinMode(sensor_conductividad,INPUT);
+    delay(1000);
+}
+
+void loop() {
+    if(Firebase.ready() && signupOK && (millis()-sendDataPrevMillis > 10000 || sendDataPrevMillis==0)){
+      sendDataPrevMillis=millis();
+      pHData= analogRead(sensor_pH);
+      float voltageP=pHData*(3.3/4095.0);
+      pHFinal=(-7.486*voltageP)+ 28.784;
+      
+      conductividadData= analogRead(sensor_conductividad);
+      float voltageC=conductividadData*(3.3/4095.0);
+      conductividadFinal=1603.4*voltageC + 2;
+      
+      if(Firebase.RTDB.setInt(&fbdo, "Sensores/pH", pHFinal)){
+        Serial.println();
+        Serial.print(pHFinal);
+      }else{
+        Serial.println("Ocurrió un error: " + fbdo.errorReason());
+      }
+      
+      if(Firebase.RTDB.setFloat(&fbdo, "Sensores/conductividad", conductividadFinal)){
+        Serial.println();
+        Serial.print(conductividadFinal);
+      }else{
+        Serial.println("Ocurrió un error: " + fbdo.errorReason());
+      }
+    }
+}
