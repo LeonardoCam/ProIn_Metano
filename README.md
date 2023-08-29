@@ -9,5 +9,9 @@ Hola! 🤓
 
 
 **Integrantes:**
-#Leonardo Camilo Mejia 
-#
+#Leonardo Mejia Lopez
+#Xiomara More Ayay
+#Victor Huarcaya Pumacayo
+#Valery Siccha Huayanay
+#Debbie Osorio Echevarria
+#Miguel Sanchez Rosario
