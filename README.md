@@ -9,9 +9,9 @@ Hola! 🤓
 
 
 **Integrantes:**
-#Leonardo Mejia Lopez
-#Xiomara More Ayay
-#Victor Huarcaya Pumacayo
-#Valery Siccha Huayanay
-#Debbie Osorio Echevarria
-#Miguel Sanchez Rosario
+- Leonardo Mejia Lopez
+- Xiomara More Ayay
+- Victor Huarcaya Pumacayo
+- Valery Siccha Huayanay
+- Debbie Osorio Echevarria
+- Miguel Sanchez Rosario
