@@ -26,4 +26,4 @@ Hola! 🤓 somos un grupo ...
 - Debbie Osorio Echevarria
 - Miguel Sanchez Rosario
 
-![image](https://github.com/Nikolai0Huarcaya/123/blob/main/kafka-spinning.gif)
+![image](https://github.com/Nikolai0Huarcaya/123/blob/main/ZIb1.gif)
