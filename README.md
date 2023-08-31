@@ -3,10 +3,10 @@
 
 
 ![image](https://github.com/Nikolai0Huarcaya/123/blob/main/e1b92e_9692a3d68f3747be99698b39814bb92f.gif)  Hola! 🤓 somos un grupo ... 
-                                                                                                       # ada #
-                                                                                                       # ada #
-                                                                                                       # ada #
-                                                                                                       # ada #
+                                                                                                       # ada #ddddd
+                                                                                                       # adaa #dd
+                                                                                                       # ada #dd
+                                                                                                       # ada #ddd
 
 
 ## Tabla de contenidos:
