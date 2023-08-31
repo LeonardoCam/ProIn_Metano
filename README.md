@@ -4,14 +4,40 @@
 Hola! 🤓 somos un grupo ... 
 
 
+
+## Tabla de contenidos:
+---
+
+- [Problematica](#Problematica)
+- [Misión](#Misión)
+- [Visión](#Visión)
+- [¿Qué haremos?](#Que-haremos)
+- [Integrantes](#Integrantes)
+
+
+
 # Problematica
+---
+
+
+
+
+
+# Visión 
+---
 
 
 
 
 
 
-# Visión y Misión 
+
+# Misión 
+---
+
+
+
+
 
 
 
@@ -19,6 +45,7 @@ Hola! 🤓 somos un grupo ...
 
 
 # Integrantes:
+---
 - Leonardo Mejia Lopez
 - Xiomara More Ayay
 - Victor Huarcaya Pumacayo
