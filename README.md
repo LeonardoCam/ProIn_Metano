@@ -25,3 +25,6 @@ Hola! 🤓 somos un grupo ...
 - Valery Siccha Huayanay
 - Debbie Osorio Echevarria
 - Miguel Sanchez Rosario
+
+
+![Uploading kafka-spinning.gif…]()
