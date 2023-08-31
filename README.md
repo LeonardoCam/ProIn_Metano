@@ -1,8 +1,8 @@
 ## Sistema de medición y purificación de amoniaco (NH3)
 ![image](https://github.com/LeonardoCam/ProIn_NH3/assets/118230173/f59488cc-44fe-4faa-a672-23c01d576a8b)
 
-Hola! 🤓 somos un grupo ... 
-![image](https://github.com/Nikolai0Huarcaya/123/blob/main/e1b92e_9692a3d68f3747be99698b39814bb92f.gif)
+
+![image](https://github.com/Nikolai0Huarcaya/123/blob/main/e1b92e_9692a3d68f3747be99698b39814bb92f.gif)  Hola! 🤓 somos un grupo ... 
 
 
 
