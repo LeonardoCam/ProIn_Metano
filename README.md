@@ -2,7 +2,7 @@
 ![image](https://github.com/LeonardoCam/ProIn_NH3/assets/118230173/f59488cc-44fe-4faa-a672-23c01d576a8b)
 
 
->>> Hola! 🤓 somos un grupo ... 
+>>> Hola! 🤓 somos un grupo llamado Amonakuy que se encargara de purificar el (NH3)amoniaco en las industrias avícolas  ... 
                                                                                    
 
 
