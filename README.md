@@ -20,7 +20,7 @@
 
 
 # Problematica
---- Contaminación ATMOSFÉRICA de amoniaco por parte de empresas.
+Contaminación atmosférica de amoniaco por parte de empresas.
 
 
 
