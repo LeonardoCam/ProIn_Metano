@@ -12,7 +12,7 @@
 ---
 
 - [Problematica](#Problematica)
-- [Propuesta de valor](#Propuesta de valor)
+- [Propuesta de valor](#Propuesta de valor).
 - [Visión](#Visión)
 - [¿Qué haremos?](#Que-haremos)
 - [Integrantes](#Integrantes)
