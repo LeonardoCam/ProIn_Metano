@@ -12,7 +12,7 @@
 ---
 
 - [Problematica](#Problematica)
-- [Propuesta de valor](#Propuesta-de-valor).
+- [Propuesta de valor](#Propuesta-de-valor)
 - [Visión](#Visión)
 - [¿Qué haremos?](#Que-haremos)
 - [Integrantes](#Integrantes)
@@ -20,7 +20,7 @@
 
 
 # Problematica
----
+--- Contaminación ATMOSFÉRICA de amoniaco por parte de empresas.
 
 
 
